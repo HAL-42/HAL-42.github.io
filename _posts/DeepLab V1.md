@@ -1,3 +1,15 @@
+---
+layout:     post
+title:      魔塔游戏如何科学提高攻击和防御
+subtitle:   高效打败魔王，救出公主
+date:       2019-08-19
+author:     HAL-42
+header-img: img/tower_of_the_sorcerer/cover.jpg
+catalog: true
+tags:
+    - CV
+---
+
 # Deep Lab V1
 
 ## Motivation
@@ -6,7 +18,7 @@
 
 CNN有内在的transformation invariance（严格来说，只有translate invariance是内生的）。
 
- ![“translate invariance”的图片搜索结果](DeepLab V1.assets/iY5n5.png) 
+ ![“translate invariance”的图片搜索结果](https://github.com/HAL-42/HAL-42.github.io/blob/master/_posts/DeepLab V1.assets/iY5n5.png) 
 
 对于在不同位置的目标，DCNN理论上能够给出近乎相同的特征（translate invariance）。这在需要得到抽象语义（例如分类）的时候很有用。
 
@@ -27,7 +39,7 @@ F_后 = （kernal_size - 1) * (Dilation * Stride_前) + F_前
 $$
 感受野在本层快速增长（一层增长32），但分辨率却没有下降：
 
-![1571024062351](DeepLab V1.assets/1571024062351.png)
+![1571024062351](https://github.com/HAL-42/HAL-42.github.io/blob/master/_posts/DeepLab V1.assets/1571024062351.png)
 
 ​																	layer14——layer17为带洞卷积
 
