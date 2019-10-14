@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      魔塔游戏如何科学提高攻击和防御
-subtitle:   高效打败魔王，救出公主
-date:       2019-08-19
+title:      DeepLab V1
+subtitle:   DeepLab V1 Summary
+date:       2019-10-14
 author:     HAL-42
-header-img: img/tower_of_the_sorcerer/cover.jpg
+header-img: 
 catalog: true
 tags:
     - CV
