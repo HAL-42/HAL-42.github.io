@@ -4,7 +4,7 @@ title:      DeepLab V1
 subtitle:   DeepLab V1 Summary
 date:       2019-10-14
 author:     HAL-42
-header-img: 
+header-img: img/42.jpg
 catalog: true
 tags:
     - CV
